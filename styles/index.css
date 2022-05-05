@@ -13,8 +13,19 @@ body{background-color:  #f0eaea66;}
 #navbar>div{
     width: auto;
     /* border: 1px solid black; */
+    margin-left: 50px;
     box-sizing: border-box;
     
+}
+#emax{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+#emax p:hover,#dropdown p:hover,#flash1 p:hover,#new1 p:hover,#preorder1 p:hover,#topbrand1 p:hover,
+p+h4:hover,#sidebar p:hover{
+color: #ff6e26;
+cursor: pointer;
 }
 .search-container { 
    width: 60%;
@@ -37,14 +48,7 @@ line-height: 5px;}
      border-top-right-radius: 6px;
      border-bottom-right-radius: 6px;
     background:#ff6e26; }
-    #moric{
-        color: #ffffff66;
-        cursor: pointer;
-        font-size: 12px;
-    }
-    #moric:hover{
-        color:#ff6e26
-    }
+   
     #log{
         display: flex;
         width: 20%;
@@ -61,27 +65,38 @@ line-height: 5px;}
         display: flex;
         background-color: #2d2d38;
         color: white;
-        gap:15px;
+        gap:5px;
+        width: 100%;
+        
         justify-content: flex-start;
         
     }  
-    #dropdown>div{
-        margin-left: 15px;
+    #dropdown p{
+        /* margin: auto; */
+        color: white;
+        /* width: 100%; */
+        line-height: 5px;
+        margin-left: 50px;
     }
     #belownavbar{
         display: flex;
         margin: auto;
+      width: 95%;
         background-color: #f7f7f7;
         /* gap:5px; */
         
     }
     #belownavbar>div{
         box-sizing: border-box;
-        border: 1px solid black;
-        margin-bottom: 28px;
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        margin-bottom: 25px;
     }
    #sidebar{
         padding: 0px 20px 0px 20px;
+        color: #333333;
+        line-height: 22px;
     }
     .mySlides{
         padding: 15px;
@@ -91,7 +106,8 @@ line-height: 5px;}
         
     }
     #ploginsign{
-        background-color: #ffffff;
+        background-color: #fffefe;
+        margin-top: 15px;
     }
     #loginsign{
         margin-top: 10px;
@@ -175,12 +191,17 @@ color: #908c8c;
      gap:10px;
      margin-bottom: 40px;
     }
+   
+    #RImg img:hover{
+        background-color: #908c8c;
+        cursor: pointer;
+    }
     #RImg{
         width:185px;
         height:auto;
         margin: auto;
         padding: 7px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
         border-radius: 5px;
         /* border:1px solid black; */
 
@@ -199,6 +220,11 @@ color: #908c8c;
     }
     #fp>p{
         font-size: 15px;
+    }
+    #recRecommend p:hover{
+        color: #ff6e26;
+        cursor: pointer;
+        text-decoration: underline;
     }
     
     
