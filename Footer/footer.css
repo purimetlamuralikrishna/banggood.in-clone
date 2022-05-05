@@ -1,0 +1,132 @@
+#container{
+    /* border: 1px solid green; */
+    width: 100%;
+    height:600px;
+    background-color: #f5f6f8;
+}
+#topbox{
+    /* border: 1px solid orange; */
+    width: 90%;
+    height:auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+#bottombox{
+    /* border: 1px solid rgb(0, 255, 234); */
+    width: 90%;
+    height:70px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.cologo > img{
+    height: 25px;
+    border: 0.5px solid gray;
+    /* width:70px; */
+}
+.cologo > i{
+    border: 0.5px solid gray;
+    width:30px;
+    height: 25px;
+    text-align: center;
+    color:gray;
+}
+hr{
+    width:79.3%;
+    margin-left: 68px;
+}
+.desc{
+    /* border: 1px solid green; */
+    width: 33%;
+    height:auto;
+}
+*{
+    font-family: openSans,arial;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+    color: grey;
+}
+
+#gettoknow{
+    line-height: 15px;
+    margin-bottom: 40px;
+    /* border: 1px solid blue; */
+}
+#subscribe{
+    line-height: 8px;
+    /* border: 1px solid blue; */
+}
+#email{
+    width:72%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px 0px;
+    background-color: #f5f6f8;
+}
+#downloadicon{
+    /* border: 1px solid green; */
+    height: 30px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 5px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    
+}
+#downloadicon .icon{
+    height:25px;
+    width: 25px;
+    background-color: rgb(250, 250, 250);
+    border: 2px solid black;
+}
+#followicon{
+    /* border: 1px solid rgb(123, 255, 0); */
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(6,30px);
+    grid-template-rows: repeat(2, 30px);
+    gap: 5px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+#qr{
+    width:180%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: -40px;
+    display: flex;
+    background-color: rgb(250, 250, 250);
+}
+#qr p{
+    margin: auto;
+}
+#qr>i{
+    margin:auto;
+    margin-left:-10px;
+}
+.icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top:5px;
+}
+#followicon>div{
+    height:20px;
+    width: 20px;
+    background-color: white;
+}
+#apple{
+    display:flex;
+    gap:20px
+}
