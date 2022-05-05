@@ -28,6 +28,6 @@ async function logindetails(){
            alert(data.message)
        }
        else{
-           window.location.reload()
+           window.location.href="../index.html"
        }
 }
