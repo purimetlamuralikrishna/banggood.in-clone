@@ -42,8 +42,13 @@ hr{
 }
 .desc{
     /* border: 1px solid green; */
+    
     width: 33%;
     height:auto;
+}
+.desc p:hover,#downloadicon .icon:hover,.icon:hover{
+cursor: pointer;
+text-decoration: underline;
 }
 *{
     font-family: openSans,arial;

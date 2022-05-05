@@ -99,7 +99,7 @@ line-height: 5px;}
         justify-content: space-around;
         margin-bottom: 50px;
     }
-    .joinus{
+    #joinus{
         border: none;
         border-radius: 15px;
         padding: 10px 20px;
@@ -107,7 +107,7 @@ line-height: 5px;}
         cursor: pointer;
         background-color: #ff6e26;
     }
-    .signin{
+    #signin{
         border: 1px solid rgb(183, 178, 178) ;
         border-radius: 15px;
         padding: 10px 20px;

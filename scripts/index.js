@@ -13,6 +13,22 @@ function carousel() {
   setTimeout(carousel, 2000); 
 }
 
+//loginsignup
+document.getElementById("joinus").addEventListener("click",joinus);
+function joinus(){
+window.location.href="./Register&signin/register.html"
+}
+document.getElementById("signin").addEventListener("click",signin);
+function signin(){
+window.location.href="./Register&signin/signin.html"
+}
+
+//navbarsign
+document.getElementById("navbarsign").addEventListener("click",navbarsign);
+function navbarsign(){
+window.location.href="./Register&signin/signin.html"
+}
+//dataflash
 let dataflash=[
 {img:"https://imgaz1.staticbg.com/thumb/grid/oaupload/banggood/images/27/40/a6615ef8-bbd9-4449-81ee-f1e26819ec4c.jpg.webp",
 price:"23,87$",
