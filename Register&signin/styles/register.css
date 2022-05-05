@@ -1,0 +1,88 @@
+
+*{
+    background-color: rgb(245,245,245);
+}
+
+#navbar{
+    background-color: white;
+    width: 100%;
+    padding: 1% 0% 1% 0%;
+}
+#navbar img{
+    background: transparent;
+    margin-left: 15%;
+}
+
+#registerdiv{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    padding: 1% 0 2% 0;
+}
+.einput,.pinput,.ninput{
+    width: 80%;
+    margin-top: 3%;
+    height: 30px;
+    border: 1px solid rgb(153,156,163);
+    border-radius: 5px;
+    background: transparent;
+}
+
+#registerdiv img{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+#registerdiv p{
+    display: inline-flex;
+    background: transparent;
+    color: rgb(153,156,163);
+    text-align: left;
+}
+#form a{
+    color: rgb(153,156,163);
+    background: transparent;
+}
+#registerdiv button{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(255,86,45);
+    color: aliceblue;
+    border: none;
+}
+#registerdiv h3{
+    text-align: center;
+    background-color: white;
+    color: rgb(153,156,163);
+}
+#forms a,#forms h2{
+    background: transparent;
+}
+
+#forms{
+display: flex;
+justify-content: space-evenly;
+background-color: white;
+color: brown;
+}
+#form{
+    background: transparent;
+}
+#footdiv{
+    text-align: center;
+    background-color: white;
+    margin-top: 2%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+#footdiv p{
+    background: transparent;
+    color: rgb(153,156,163);
+}
+#footdiv a{
+    color: rgb(153,156,163);
+    background: transparent;
+    margin-right: 5px;
+}
