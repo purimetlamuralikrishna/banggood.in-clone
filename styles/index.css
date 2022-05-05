@@ -173,6 +173,7 @@ color: #908c8c;
       margin: auto;
       /* border:1px solid black; */
      gap:10px;
+     margin-bottom: 40px;
     }
     #RImg{
         width:185px;
@@ -188,6 +189,16 @@ color: #908c8c;
         width:100%;
         border-radius: 5px;
         height: 50%;
+    }
+    #fp{
+        
+        margin: auto;
+        width: 95%;
+        line-height: 5px;
+        height: 100px;
+    }
+    #fp>p{
+        font-size: 15px;
     }
     
     
