@@ -59,6 +59,7 @@ offf:"43% off",
 dataflash.map(function(el){
     console.log("str")
     let div=document.createElement("div");
+    let div1=document.createElement("div");
     let img=document.createElement("img");
     let h4=document.createElement("h4");
     let p=document.createElement("p");
@@ -71,7 +72,8 @@ dataflash.map(function(el){
     p.style.width="65px"
     p.style.borderRadius="5px"
     div.append(img,h4,p)
-    document.getElementById("flashappend").append(div);
+    div1.append(div)
+    document.getElementById("flashappend").append(div1);
 })
 
 let newarrival=[
