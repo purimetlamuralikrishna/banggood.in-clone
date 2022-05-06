@@ -57,7 +57,7 @@ line-height: 5px;}
         cursor: pointer;
     }
     #cart{
-        width: 30%;
+        width: 20%;
         display: flex;
         color: white;
     } 
@@ -136,6 +136,10 @@ line-height: 5px;}
         width: 95%;
         
         margin: auto;
+    }
+    #flashappend>div{
+        padding: 0px;
+        background-color: #f7f7f7;
     }
     #flashappend,#newarrival{
      display: grid;

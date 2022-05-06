@@ -21,6 +21,9 @@
     text-align: center;
     padding: 1% 0 2% 0;
 }
+input-text{
+    margin-left: 10px;
+}
 .einput,.pinput,.ninput{
     width: 80%;
     margin-top: 3%;
@@ -48,6 +51,7 @@
 #registerdiv button{
     width: 80%;
     height: 30px;
+    cursor: pointer;
     background-color: rgb(255,86,45);
     color: aliceblue;
     border: none;
