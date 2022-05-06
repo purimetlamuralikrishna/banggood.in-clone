@@ -1,15 +1,23 @@
-#cart{
-    width: 20%;
-    /* border: 1px solid red; */
-    display: flex;
-    margin-left: 10%;
-    justify-content: space-around;
-    margin-bottom: 4%;
+*{
+    background-color: rgb(245,245,245);
 }
+
+#navbar{
+    background-color: white;
+    width: 100%;
+    padding: 1% 0% 1% 0%;
+    display: flex;
+}
+#navbar img{
+    background: transparent;
+    margin-left: 15%;
+}
+
 h3,p{
     margin-top: 30px;
 }
 h3{
+    background: transparent ;
     color: #0da84f;
     font-weight: lighter;
     font-size: 20px;
@@ -65,4 +73,22 @@ button:hover{
     display: block;
     margin: auto;
     font-weight: bold;
+}
+
+#footdiv{
+    
+    text-align: center;
+    background-color: white;
+    margin-top: 25%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+#footdiv p{
+    background: transparent;
+    color: rgb(153,156,163);
+}
+#footdiv a{
+    color: rgb(153,156,163);
+    background: transparent;
+    margin-right: 5px;
 }
