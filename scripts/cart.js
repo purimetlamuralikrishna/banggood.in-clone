@@ -1,15 +1,15 @@
-// let cartData=JSON.parse(localStorage.getItem("Cart"));
 
-let cartData=JSON.parse(localStorage.getItem("Cart"));
+
+let cartData=JSON.parse(localStorage.getItem("cart"))||[];
 
 
 if(cartData.length>0)
-{
+{console.log("str")
     displaydata(cartData);
 }
 
 else
-{
+{console.log("str")
     let btn=document.createElement('button');
     btn.innerText="Go shopping";
 }
@@ -23,10 +23,10 @@ function displaydata(cartData)
    box.style.boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px";
 
    let img=document.createElement("img");
-   img.src=ele.imgUrl;
+   img.src=ele.img;
 
-   let name=document.createElement("p");
-   name.innerText=ele.name;
+//    let name=document.createElement("p");
+//    name.innerText=ele.name;
 
    let price=document.createElement("p");
    price.innerText="Rs."+ele.price;
@@ -37,7 +37,7 @@ function displaydata(cartData)
        removeItem(ele,index);
    });
 
-   box.append(img,name,price,btn);
+   box.append(img,price,btn);
    document.querySelector("#container1").append(box);
    });
 
@@ -47,14 +47,15 @@ function displaydata(cartData)
         // console.log(ele,index);
         cartData.splice(index,1);
         console.log(cartData);
-        localStorage.setItem("Cart",JSON.stringify(cartData));
+        localStorage.setItem("cart",JSON.stringify(cartData));
         // displaydata(cartData);
+        alert("Item Removed")
         window.location.reload();
     }
 
-    var total=cartData.reduce(function(sum,ele,index,arr){
+    let total=cartData.reduce(function(sum,ele){
         return sum + Number(ele.price);
     },0);
 
-    let total=document.getElementById("total_price");
-    total.innerText=`Price Total Rs ${total}`;
+    let total_price=document.getElementById("total_price");
+    total_price.innerText=`Price Total Rs  ${total}`;

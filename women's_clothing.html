@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <link rel="stylesheet" href="women's_clothing.css" />
-    <style>
-
-    </style>
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/women's_clothing.css" />
 </head>
-
 <body>
-    <h2 id="heading">Women's Clothing </h2>
+<!-- navbar start -->
+<div id="navbar">
+    <div>
+        <img style="height: auto;" src="./images/logo.PNG" alt=""/>
+    </div>
+    <div class="search-container"> <input type="text" name="search-text" placeholder="laotie"   class="search-input"/>
+         <button class="search-button">&#x1F50D</button> 
+         <div id="emax">
+             <p> emax</p>
+             <p>surpass</p>
+             <p>hobbygeprc</p>
+             <p>vention</p>
+             <p>vention</p>
+             <p>laotie</p>
+             <p>xiaomi</p>
+             <p>3d printer</p>
+         </div>
+       
+    </div>
+    <div>
+        <img  src="./images/india.PNG" alt=""/>
+    </div>
+    <div id="log">
+        <img style="height: 59px;width: 59px;"  src="./images/human.PNG" alt=""/>
+         <div >
+             <p style=" color: #ffffff66;">Hello</p>
+             <h4 id="navbarsign">Sign in</h4>
+         </div>   
+    </div>
+    <div id="cart">
+        <img src="./images/cart.PNG"alt=""/><span>Count</span>
+       
+    </div>
+    </div>
+<!-- navbar end -->
+    <div id="dropdown">
+       <p>  <span><i class="fa-solid fa-bars">  </i></span>  CATEGORIES <span><i class="fa-solid fa-angle-right"></i></span></p>
+        <p>FLASH DEALS</p>
+        <P>CLERANCE SALE</P>
+        <p>TOP SALLERS</p>
+    </div>
+
+<h2 id="heading">Women's Clothing  <span id="wo">Latest & Comfy Clothing For You</span></h2>
 
     <div id="parent1">
 
@@ -33,43 +74,22 @@
     <div id="Flash_Deals">
 
         <h1 style="margin-left: 10px;">Flash Deals</h1>
-    </div> <div id="Parent">
-        <div id="container">
-            <div>
-                <img style="height: 300px; width: 200px;"
-                    src="https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/BD/1E/5fcd2c9b-c966-4972-ae4d-caa0a2f4d59d.jpg.webp">
-                <p><b>₹1,090.30</b><br>2 Sold</p>
-            </div>
-            <div>
-                <img style="height: 300px; width: 200px;"
-                    src="https://imgaz1.staticbg.com/thumb/view/oaupload/banggood/images/02/4D/f1ca8ba0-c4e3-4eb8-9df1-b76dc91d2d6b.jpg.webp">
-                <p><b>₹1,012.36</b><br>1 Sold</p>
-            </div>
-            <div>
-                <img style="height: 300px; width: 200px;"
-                    src="https://imgaz1.staticbg.com/thumb/view/oaupload/banggood/images/B2/A8/c9bbaca1-8f17-4866-af18-f4146b9425b5.jpg.webp">
-                    <p><b>₹778.56</b><br>1 Sold</p>
-                </div>
-            <div>
-                <img style="height: 300px; width: 200px;"
-                    src="https://imgaz1.staticbg.com/thumb/view/oaupload/banggood/images/4E/32/be1531f2-d0b3-4c30-9e5c-5e15cb9da40a.jpg.webp">
-                    <p><b>₹700.63</b><br>1 Sold</p>
-                </div>
-            <div>
-                <img style="height: 300px; width: 200px;"
-                    src="https://imgaz1.staticbg.com/thumb/view/oaupload/banggood/images/91/92/3e0b41bd-32b2-4e62-9196-080b8551dbaa.jpg.webp">
-                    <p><b>₹1,869.64</b><br>0 Sold</p>
-                </div>
-            <div>
-                <img style="height: 300px; width: 200px;"
-                    src="https://imgaz1.staticbg.com/thumb/view/oaupload/ser1/banggood/images/9D/71/c0c78439-b53e-4c7c-b0d8-411d7a902d56.jpg.webp">
-                    <p><b>₹1,168.23</b><br>2 Sold</p>
-                </div>
-                
+        <div id="sorting">
+            <h3 style="margin-top: 25px; color: rgb(88, 87, 87);">Sort By</h3>
+        <select id="selection" onchange="sortByCategory()"> 
+            <option value="popular" id="popular">popular</option>
+            <option value="lth" id="lth">Low To High Price</option>
+            <option value="htl" id="htl">High To Low Price</option>
+        </select>
         </div>
         
-    </div>
+    </div> 
+    <!-- <div id="Parent"> -->
+        
+        <div id="container">   
+        </div>
 
 </body>
 
 </html>
+<script src="./scripts/women's.js"></script>
