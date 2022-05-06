@@ -1,13 +1,17 @@
 *{font-family:arial,helvetica,sans-serif,verdana,'Open Sans'}
 body{background-color:  #f0eaea66;}
+
+
+
 #heading {
     color: #FF6E26;
     margin-left: 40px;
 }
-#me{
+#wo{
     font-size: small;
-    color:#77727266 ;
+    color:#47424266 ;
 }
+
 #parent1 {
     height: 450px;
     width: 95%;
@@ -17,6 +21,9 @@ body{background-color:  #f0eaea66;}
     display: flex;
     margin-bottom: 15px;
 }
+
+
+
 #brands {
     height: 432px;
     width: 18%;
@@ -39,7 +46,13 @@ img{
     height: 100%;
     border-radius: 5px;
 }
- #Flash_Deals {
+#imgmens{
+    width: 180px;
+    height: 180px;
+    }
+
+/* // */
+#Flash_Deals {
     height: 50px;
     width: 95%; 
     /* border: 1px solid black; */
@@ -66,35 +79,44 @@ img{
 #selection:hover{
     background-color: #b9f1df;
 }
+
+
 #brands>a {
     margin-bottom: 20px;
     /* justify-content: space-between; */
     cursor: pointer;
 }
+
 #brands>a:hover {
     color: rgb(80, 80, 187);
     background-color:  #f0eaea66;
     font-weight: bold;
    margin: auto;
+  
+
+    /* justify-content: space-between; */
 }
 a{
     color: gray;
 }
-
- #container {
-   display: grid; 
-    grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
-   
-} 
-#imgmens{
-width:200px;
-height: 200px;
+#Parent {
+    height: auto;
+    width: 95%;
+    /* border: 2px solid teal; */
+    margin: auto;
 }
 
-
-
+#container {
+    display: grid; 
+    width: 95%;
+     grid-template-columns: repeat(6, 1fr);
+     gap: 2px;
+     margin: auto;
+    
+ }
 /* navbar */
+
+
 #navbar{
     display: flex;
     width: 100%;
@@ -167,8 +189,8 @@ line-height: 5px;}
         
     }  
     #dropdown p{
-        font-size: small;
         /* margin: auto; */
+        font-size: small;
         color: white;
         /* width: 100%; */
         line-height: 5px;
