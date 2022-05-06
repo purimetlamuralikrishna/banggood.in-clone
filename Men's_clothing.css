@@ -2,7 +2,6 @@
     color: #FF6E26;
     margin-left: 40px;
 }
-
 #parent1 {
     height: 450px;
     width: 95%;
@@ -12,14 +11,11 @@
     display: flex;
     margin-bottom: 15px;
 }
-
 #brands {
     height: 450px;
     width: 18%;
     /* border: 1px solid black; */
-
 }
-
 #advertize {
     height: 450px;
     width: 88%;
@@ -27,47 +23,64 @@
 
     margin-left: 50px;
 }
-
-
  #Flash_Deals {
     height: 50px;
-    width: 95%;
-    
+    width: 95%; 
     /* border: 1px solid black; */
     content: "\E655";
     margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+
 }
-
-
+#sorting{
+    display: flex;
+    margin-left: 60%;
+    gap: 20px;
+}
+#selection{
+    
+    margin-top: 20px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fc6f29;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#selection:hover{
+    background-color: #b9f1df;
+}
 #brands>a {
     margin-bottom: 20px;
     /* justify-content: space-between; */
     cursor: pointer;
 }
-
 #brands>a:hover {
    margin: auto;
-  
-
-    /* justify-content: space-between; */
 }
 a{
     color: gray;
 }
-#Parent {
-    height: auto;
-    width: 95%;
-    /* border: 2px solid teal; */
-    margin: auto;
-}
 
-#container {
-    height: auto;
-    width: 100%;
+ #container {
     /* border: 2px solid black; */
-    display: grid;
+     display: grid; 
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(1, 200px);
-    gap: 10px;
-    margin: auto;
+    /* grid-template-rows: repeat(1, 200px); */
+    gap: 20px;
+    /* margin: auto; */ 
+} 
+#mdiv{
+    /* border: 0.5px solid green; */
+    width: 200px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+
+}
+#mdiv>img{
+    width: 200px;
+    /* height: 70%; */
+}
+#mdiv>p{
+    margin-left: 10px;
 }
