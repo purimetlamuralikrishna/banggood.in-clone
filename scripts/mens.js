@@ -80,7 +80,7 @@ mens_data.forEach(function(el){
     mdiv.append(product_img,price,discount);
     document.getElementById("container").append(mdiv);
     
-    
+
     })
 }
 
