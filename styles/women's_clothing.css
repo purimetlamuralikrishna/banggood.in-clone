@@ -84,6 +84,7 @@ line-height: 5px;}
         color:#77727266 ;
     }
 /* navbar end */
+
 #heading {
     color: #FF6E26;
     margin-left: 40px;
@@ -105,7 +106,6 @@ line-height: 5px;}
     background-color: white;
     
 }
-
 #advertize {
     height: 450px;
     width: 79%;
@@ -168,7 +168,6 @@ line-height: 5px;}
     font-weight: bold;
    margin: auto;
 }
-
 a{
     color: #6a6a6a;
 }
@@ -216,3 +215,55 @@ body{
 *{
     font-family: OpenSans, Arial;;
 }
+
+/* #advertize {
+    height: 450px;
+    width: 88%;
+    /* border: 1px solid black; */
+
+    /* margin-left: 50px; */
+/* } */
+
+
+ /* #Flash_Deals {
+    height: 50px;
+    width: 95%;
+    
+    /* border: 1px solid black; */
+    /* content: "\E655"; */
+    /* margin: auto; */
+/* } */ 
+
+
+/* #brands>a {
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+    /* cursor: pointer; */
+/* } */ 
+
+/* #brands>a:hover {
+   margin: auto;
+   */
+
+    /* justify-content: space-between; */
+/* } */
+/* a{
+    color: gray;
+} */
+/* #Parent {
+    height: auto;
+    width: 95%;
+    /* border: 2px solid teal; */
+    /* margin: auto; */
+/* } */
+
+/* #container {
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    gap: 10px;
+    margin: auto;
+} */
