@@ -27,6 +27,11 @@ h2{
 input{
     color: black;
 }
+#totalPrice{
+    color: rgb(255,86,45);
+    font-weight: bold;
+}
+
 input{
      width: 350px;
      height: 35px;
