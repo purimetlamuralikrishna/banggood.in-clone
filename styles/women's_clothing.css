@@ -18,7 +18,9 @@
 }
 #emax{
     display: flex;
-    font-size: small;
+    font-size: smaller;
+    color: #6a6a6a;
+    font-weight: bold;
     justify-content: flex-start;
     gap: 5px;
 }
@@ -188,6 +190,7 @@ a{
     width: auto;
     /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
     cursor: pointer;
+    text-align: center;
     justify-content: space-evenly;
     /* padding: 15px; */
     
@@ -200,70 +203,43 @@ a{
 }
 #mdiv>p{
     margin-left: 10px;
+    font-size: small;
     line-height: 10px;
 }
-#mdiv >button{
-    background-color: rgb(252, 104, 50);
-    border-radius: 5px;
+#button{
+    background-color: #ff6e26;
+    border: 1px solid #ff6e26;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    width: 106px;
+    height: 36px;
     cursor: pointer;
-    color: rgb(29, 21, 5);
-    border: 0.5px solid gray;
-}
+    font-family: OpenSans,Arial;
+  }
 body{
     background-color: #f5f6f8;  
 }
 *{
     font-family: OpenSans, Arial;;
 }
-
-/* #advertize {
-    height: 450px;
-    width: 88%;
-    /* border: 1px solid black; */
-
-    /* margin-left: 50px; */
-/* } */
-
-
- /* #Flash_Deals {
-    height: 50px;
-    width: 95%;
+#footdiv{
     
-    /* border: 1px solid black; */
-    /* content: "\E655"; */
-    /* margin: auto; */
-/* } */ 
+    text-align: center;
+    background-color: white;
+    margin-top: 10%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+#footdiv p{
+    background: transparent;
+    color: rgb(153,156,163);
+}
+#footdiv a{
+    color: rgb(153,156,163);
+    background: transparent;
+    margin-right: 5px;
+}
 
 
-/* #brands>a {
-    margin-bottom: 20px;
-    /* justify-content: space-between; */
-    /* cursor: pointer; */
-/* } */ 
-
-/* #brands>a:hover {
-   margin: auto;
-   */
-
-    /* justify-content: space-between; */
-/* } */
-/* a{
-    color: gray;
-} */
-/* #Parent {
-    height: auto;
-    width: 95%;
-    /* border: 2px solid teal; */
-    /* margin: auto; */
-/* } */
-
-/* #container {
-    height: auto;
-    width: 100%;
-    /* border: 2px solid black; */
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(1, 200px);
-    gap: 10px;
-    margin: auto;
-} */

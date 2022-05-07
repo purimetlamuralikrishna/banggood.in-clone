@@ -18,7 +18,9 @@
 }
 #emax{
     display: flex;
-    font-size: small;
+    color: #6a6a6a;
+    font-size: smaller;
+    font-weight: bold;
     justify-content: flex-start;
     gap: 5px;
 }
@@ -151,7 +153,7 @@ line-height: 5px;}
     border-radius: 5px;
     cursor: pointer;
 }
-#selection:hover,#mdiv >button:hover{
+#selection:hover{
     background-color: #b9f1df;
 }
 #brands>a {
@@ -189,6 +191,7 @@ a{
     width: auto;
     /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
     cursor: pointer;
+    text-align: center;
     justify-content: space-evenly;
     /* padding: 15px; */
     
@@ -196,23 +199,48 @@ a{
 }
 #mdiv>img{
     width: 100%;
-    border-radius: 2px;
+    border-radius: 5px;
     /* height: 70%; */
 }
 #mdiv>p{
     margin-left: 10px;
+    font-size: small;
     line-height: 10px;
 }
-#mdiv >button{
-    background-color: rgb(252, 104, 50);
-    border-radius: 5px;
-    cursor: pointer;
-    color: rgb(29, 21, 5);
-    border: 0.5px solid gray;
-}
+
 body{
     background-color: #f5f6f8;  
 }
 *{
     font-family: OpenSans, Arial;;
+}
+
+#button{
+    background-color: #ff6e26;
+    border: 1px solid #ff6e26;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    width: 106px;
+    height: 36px;
+    cursor: pointer;
+    font-family: OpenSans,Arial;
+  }
+  #footdiv{
+    
+    text-align: center;
+    background-color: white;
+    margin-top: 10%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+#footdiv p{
+    background: transparent;
+    color: rgb(153,156,163);
+}
+#footdiv a{
+    color: rgb(153,156,163);
+    background: transparent;
+    margin-right: 5px;
 }

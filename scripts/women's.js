@@ -172,13 +172,14 @@ womens_Data.forEach(function(el){
     let product_img=document.createElement("img");
     product_img.src=el.img;
 
-    var price = document.createElement("p");
+    var price = document.createElement("h4");
     price.style.fontWeight="bold";
     price.setAttribute("id", "originalPrice");
     price.innerText = "₹"+ el.price;
 
     let cbtn=document.createElement("button");
     cbtn.innerText="Add to Cart";
+    cbtn.setAttribute("id","button")
     cbtn.addEventListener("click", function(){
         addToCart(el);
     })

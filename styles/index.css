@@ -19,6 +19,8 @@ body{background-color:  #f0eaea66;}
 }
 #emax{
     display: flex;
+    font-size: 5px;
+    font-weight: bold;
     justify-content: flex-start;
     gap: 5px;
 }

@@ -7,6 +7,7 @@
     width: 100%;
     padding: 1% 0% 1% 0%;
     display: flex;
+    margin-bottom: 2%;
 }
 #navbar img{
     background: transparent;
@@ -63,6 +64,7 @@ h3{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     /* border: 1px solid blue; */
+    
     width: 80%;
     grid-gap: 20px;
     height: auto;  
@@ -80,7 +82,8 @@ h3{
 #cartImg{
     display: block;
     margin: auto;
-    width: 50%;
+    padding-top: 2%;
+    width: 70%;
     height: 200px;
     cursor: pointer;
 }
@@ -88,6 +91,9 @@ h3{
 #cartPrice{
     text-align: center;
     color: #ff4a33;
+}
+#total_price{
+    
 }
 
 #cartButton{
