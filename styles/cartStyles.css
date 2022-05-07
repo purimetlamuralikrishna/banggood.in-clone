@@ -54,21 +54,54 @@ h3{
 }
 #container{
     width:90%;
-    height: auto;
+    display: grid;
     /* border: 1px solid red; */
+    grid-template-columns: repeat(1,1fr);
     margin: auto;
 }
 #container>#container1{
     display: grid;
+    grid-template-columns: repeat(4,1fr);
     /* border: 1px solid blue; */
-    width: 100%;
+    width: 80%;
+    grid-gap: 20px;
     height: auto;  
+    margin: auto;
+    margin-bottom: 2%;
 }
 #container>#container2{
     /* border: 1px solid blue; */
-    width: 35%;
-    margin-left:65%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    width: 20%;
+    margin:auto;
     height: auto;
+    padding-bottom: 1%;
+}
+#cartImg{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    cursor: pointer;
+}
+
+#cartPrice{
+    text-align: center;
+    color: #ff4a33;
+}
+
+#cartButton{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    background-color: #ff4a33;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: medium;
 }
 a{
     text-decoration: none;

@@ -14,7 +14,7 @@ function myfun(){
         {
             alert("Check the Card And CVV Number you entered");
         }
-        else if(otp==111111 || otp==222222 || otp==333333 || otp==444444 || otp==555555 || otp==666666)
+        else if(otp.length===4)
         {
             alert("Order Placed Successful");
 
