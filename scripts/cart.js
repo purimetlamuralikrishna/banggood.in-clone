@@ -9,7 +9,8 @@ if(cartData.length>0)
 }
 
 else
-{console.log("str")
+{
+    // console.log("str")
     let btn=document.createElement('button');
     btn.innerText="Go shopping";
 }
@@ -23,16 +24,19 @@ function displaydata(cartData)
    box.style.boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px";
 
    let img=document.createElement("img");
+   img.setAttribute('id','cartImg');
    img.src=ele.img;
 
 //    let name=document.createElement("p");
 //    name.innerText=ele.name;
 
    let price=document.createElement("p");
-   price.innerText="Rs."+ele.price;
+   price.innerText="₹ "+ele.price;
+   price.setAttribute('id','cartPrice');
 
    let btn=document.createElement("button");
    btn.innerText="Remove";
+   btn.setAttribute('id','cartButton');
    btn.addEventListener("click",function(){
        removeItem(ele,index);
    });
@@ -58,4 +62,5 @@ function displaydata(cartData)
     },0);
 
     let total_price=document.getElementById("total_price");
-    total_price.innerText=`Price Total Rs  ${total}`;
+    total_price.innerText=`Your Cart Total  ₹${total}`;
+    total_price.style.textAlign='center';
