@@ -1,10 +1,6 @@
-//navbarsign
-document.getElementById("navbarsign").addEventListener("click",navbarsign);
-function navbarsign(){
-window.location.href="./Register&signin/signin.html"
-}
+var cart_item = JSON.parse(localStorage.getItem("cart")) || [];
 
-let mens_data = [
+var mens_data = [
     {
         img:"https://imgaz3.staticbg.com/thumb/view/oaupload/banggood/images/3B/AC/b8d6d5e5-f748-4ded-8cc0-1991be70c3c4.jpg.webp",
         price : 1402,
@@ -106,27 +102,27 @@ let mens_data = [
         off:13,
     },
     {
-        img:"https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/12/B9/6011c01a-2216-4e6d-aab3-8c5bc961de28.jpg.webp",
-        price:1282,
-        off:20,
+        img:"https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/33/F9/ce94c896-17e0-40ad-a537-31653c744119.jpg.webp",
+        price:1635,
+        off:22,
     },
     {
-        img:"https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/D1/54/425bf9dd-2c04-47e3-9658-ee8a52f3c956.jpg.webp",
-        price:2018,
-        off:10,
+        img:"https://imgaz3.staticbg.com/thumb/view/oaupload/banggood/images/64/77/aa388cb2-fcb2-4380-8060-7c36bd2b87ba.jpg.webp",
+        price:3083,
+        off:16,
     },
     {
-        img:"https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/12/B9/6011c01a-2216-4e6d-aab3-8c5bc961de28.jpg.webp",
-        price:1282,
-        off:20,
+        img:"https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/50/10/86d70233-6e7c-471e-8074-5b1308983f9e.jpg.webp",
+        price:1324,
+        off:25,
     },
     {
-        img:"https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/D1/54/425bf9dd-2c04-47e3-9658-ee8a52f3c956.jpg.webp",
-        price:2018,
-        off:10,
+        img:"https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/D8/6A/c3b74841-d988-42db-a54f-7dc98cb89c80.jpg.webp",
+        price:1635,
+        off:13,
     },
 ]
-let addtocart=JSON.parse(localStorage.getItem("cart"))||[];
+
 window.addEventListener("load", function () {
     displayData(mens_data);
   });
@@ -134,42 +130,40 @@ window.addEventListener("load", function () {
 function displayData(mens_data) {
  document.getElementById("container").innerHTML=null;
 mens_data.forEach(function(el){
-   console.log("str")
-    let mdiv=document.createElement("div");
    
+    let mdiv=document.createElement("div");
+    mdiv.setAttribute("id","mdiv");
 
     let discount=document.createElement("p");
     discount.innerText=el.off + "% OFF";
 
     let product_img=document.createElement("img");
-    product_img.setAttribute("id","imgmens")
-    
     product_img.src=el.img;
 
     var price = document.createElement("p");
+    price.style.fontWeight="bold";
     price.setAttribute("id", "originalPrice");
     price.innerText = "₹"+ el.price;
 
-    var btn = document.createElement("button");
-    btn.innerText="Add To Cart";
-    btn.style.cursor="pointer";
-    btn.addEventListener("click" ,function(){
-  addcart(el)
+    let cbtn=document.createElement("button");
+    cbtn.innerText="Add to Cart";
+    cbtn.addEventListener("click", function(){
+        addToCart(el);
     })
 
-
-    mdiv.append(product_img,price,discount,btn);
+    mdiv.append(product_img,price,discount,cbtn);
     document.getElementById("container").append(mdiv);
     
-
+    
     })
 }
-function addcart(el){
-addtocart.push(el);
-localStorage.setItem("cart",JSON.stringify(addtocart));
-alert("Item Added to cart")
-
-}
+// add to cart
+function addToCart(el) {
+    cart_item.push(el);
+    localStorage.setItem("cart", JSON.stringify(cart_item));
+    // window.location.href = "cart.html";
+    alert("Item added to cart"); 
+  }
 
 // sorting
 function sortByCategory() {
@@ -197,4 +191,9 @@ function sortByCategory() {
         displayData(mens_data);
       }
 
+}
+//navbarsign
+document.getElementById("navbarsign").addEventListener("click",navbarsign);
+function navbarsign(){
+window.location.href="./Register&signin/signin.html"
 }

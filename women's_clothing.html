@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <link rel="stylesheet" href="/banggood.in-clone/styles/women's_clothing.css" />
     <script
       src="https://kit.fontawesome.com/24c494a6b6.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./styles/women's_clothing.css" />
+    <style>
+
+    </style>
 </head>
+
 <body>
-<!-- navbar start -->
+
+    <!-- navbar start -->
 <div id="navbar">
     <div>
-        <img style="height: auto;" src="./images/logo.PNG" alt=""/>
+        <img  style="height: auto;" src="./images/logo.PNG" alt=""/>
     </div>
     <div class="search-container"> <input type="text" name="search-text" placeholder="laotie"   class="search-input"/>
          <button class="search-button">&#x1F50D</button> 
@@ -38,19 +44,18 @@
          </div>   
     </div>
     <div id="cart">
-        <img src="./images/cart.PNG"alt=""/><span>Count</span>
+        <a href="cart.html"><img src="./images/cart.PNG"alt=""/></a>
        
     </div>
     </div>
 <!-- navbar end -->
-    <div id="dropdown">
-       <p>  <span><i class="fa-solid fa-bars">  </i></span>  CATEGORIES <span><i class="fa-solid fa-angle-right"></i></span></p>
-        <p>FLASH DEALS</p>
-        <P>CLERANCE SALE</P>
-        <p>TOP SALLERS</p>
-    </div>
-
-<h2 id="heading">Women's Clothing  <span id="wo">Latest & Comfy Clothing For You</span></h2>
+<div id="dropdown">
+    <p>  <span><i class="fa-solid fa-bars">  </i></span>  CATEGORIES <span><i class="fa-solid fa-angle-right"></i></span></p>
+     <p>FLASH DEALS</p>
+     <P>CLERANCE SALE</P>
+     <p>TOP SALLERS</p>
+ </div>
+ <h2 id="heading">Women's Clothing   <span id="me">Latest and Comfy Clothing For You</span></h2>
 
     <div id="parent1">
 
@@ -71,25 +76,29 @@
 
         <div id="advertize"> <img src="https://imgaz.staticbg.com/banggood/os/202201/20220106000635_678.jpg.webp"></div>
     </div>
-    <div id="Flash_Deals">
-
-        <h1 style="margin-left: 10px;">Flash Deals</h1>
-        <div id="sorting">
-            <h3 style="margin-top: 25px; color: rgb(88, 87, 87);">Sort By</h3>
-        <select id="selection" onchange="sortByCategory()"> 
-            <option value="popular" id="popular">popular</option>
-            <option value="lth" id="lth">Low To High Price</option>
-            <option value="htl" id="htl">High To Low Price</option>
-        </select>
-        </div>
-        
-    </div> 
-    <!-- <div id="Parent"> -->
-        
-        <div id="container">   
+    <div id="flashouter">
+        <div id="Flash_Deals">
+            <img src="https://w7.pngwing.com/pngs/180/682/png-transparent-battery-charger-symbol-computer-icons-electricity-media-miscellaneous-angle-text.png" alt="flash">
+            <h2 style="margin-left: 20px; ">Flash Deals</h2>
+            <div id="sorting">
+                <h3 style="margin-top: 25px; color: rgb(88, 87, 87);">Sort By</h3>
+            <select id="selection" onchange="sortByCategory()"> 
+                <option value="popular" id="popular">popular</option>
+                <option value="lth" id="lth">Low To High Price</option>
+                <option value="htl" id="htl">High To Low Price</option>
+            </select>
+            </div>
+            
+        </div> 
+        <!-- <div id="Parent"> -->
+            
+            <div id="container">     
+            </div>
+            
+        <!-- </div> -->
         </div>
 
 </body>
 
 </html>
-<script src="./scripts/women's.js"></script>
+<script src="/banggood.in-clone/scripts/women's.js"></script>

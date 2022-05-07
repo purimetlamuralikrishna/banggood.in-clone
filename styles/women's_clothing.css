@@ -1,122 +1,5 @@
-*{font-family:arial,helvetica,sans-serif,verdana,'Open Sans'}
-body{background-color:  #f0eaea66;}
 
-
-
-#heading {
-    color: #FF6E26;
-    margin-left: 40px;
-}
-#wo{
-    font-size: small;
-    color:#47424266 ;
-}
-
-#parent1 {
-    height: 450px;
-    width: 95%;
-    /* border: 1px solid red; */
-    margin-top: 100px;
-    margin: auto;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-
-
-#brands {
-    height: 432px;
-    width: 18%;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding: 8px;
-    /* border: 1px solid black; */
-}
-#advertize {
-    height: 450px;
-    width: 75%;
-    box-sizing: border-box;
-    margin: auto;
-    /* border: 1px solid black; */
-
-   
-}
-img{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
-#imgmens{
-    width: 180px;
-    height: 180px;
-    }
-
-/* // */
-#Flash_Deals {
-    height: 50px;
-    width: 95%; 
-    /* border: 1px solid black; */
-    content: "\E655";
-    margin: auto;
-    margin-bottom: 50px;
-    display: flex;
-
-}
-#sorting{
-    display: flex;
-    margin-left: 60%;
-    gap: 20px;
-}
-#selection{
-    
-    margin-top: 20px;
-    height: 30px;
-    padding: 5px;
-    background-color: #fc6f29;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#selection:hover{
-    background-color: #b9f1df;
-}
-
-
-#brands>a {
-    margin-bottom: 20px;
-    /* justify-content: space-between; */
-    cursor: pointer;
-}
-
-#brands>a:hover {
-    color: rgb(80, 80, 187);
-    background-color:  #f0eaea66;
-    font-weight: bold;
-   margin: auto;
-  
-
-    /* justify-content: space-between; */
-}
-a{
-    color: gray;
-}
-#Parent {
-    height: auto;
-    width: 95%;
-    /* border: 2px solid teal; */
-    margin: auto;
-}
-
-#container {
-    display: grid; 
-    width: 95%;
-     grid-template-columns: repeat(6, 1fr);
-     gap: 2px;
-     margin: auto;
-    
- }
 /* navbar */
-
-
 #navbar{
     display: flex;
     width: 100%;
@@ -189,10 +72,198 @@ line-height: 5px;}
         
     }  
     #dropdown p{
-        /* margin: auto; */
         font-size: small;
+        /* margin: auto; */
         color: white;
         /* width: 100%; */
         line-height: 5px;
         margin-left: 50px;
     }
+    #me{
+        font-size: small;
+        color:#77727266 ;
+    }
+/* navbar end */
+
+#heading {
+    color: #FF6E26;
+    margin-left: 40px;
+}
+#parent1 {
+    height: 450px;
+    width: 95%;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 15px;
+}
+#brands {
+    height: 450px;
+    width: 20%;
+    line-height: 19px;
+    /* border: 1px solid blue; */
+    background-color: white;
+    
+}
+#advertize {
+    height: 450px;
+    width: 79%;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    cursor: pointer;
+}
+#advertize>img{
+    width: 100%;
+    height: 100%;
+}
+ #Flash_Deals {
+    height: 50px;
+    width: 95%; 
+    /* border: 1px solid black; */
+    content: "\E655";
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+#Flash_Deals>img{
+    margin-top: 22px;
+
+}
+#flashouter{
+    /* border: 0.5px solid green; */
+    width: 95%;
+    margin: auto;
+    background-color: white;
+}
+#sorting{
+    display: flex;
+    margin-left: 60%;
+    gap: 20px;
+}
+#selection{
+    
+    margin-top: 20px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fc6f29;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#selection:hover,#mdiv >button:hover{
+    background-color: #b9f1df;
+}
+#brands>a {
+    
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+    cursor: pointer;
+    padding: 20px;
+    /* padding-top: 20px; */
+}
+#brands>a:hover {
+    color: rgb(80, 80, 187);
+    background-color:  #f0eaea66;
+    font-weight: bold;
+   margin: auto;
+}
+a{
+    color: #6a6a6a;
+}
+
+ #container {
+    /* border: 2px solid black; */
+     display: grid; 
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    width: 95%;
+    margin: auto; 
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: -35px;
+} 
+#mdiv{
+    /* border: 0.5px solid green; */
+    width: auto;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    cursor: pointer;
+    justify-content: space-evenly;
+    /* padding: 15px; */
+    
+
+}
+#mdiv>img{
+    width: 100%;
+    border-radius: 2px;
+    /* height: 70%; */
+}
+#mdiv>p{
+    margin-left: 10px;
+    line-height: 10px;
+}
+#mdiv >button{
+    background-color: rgb(252, 104, 50);
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(29, 21, 5);
+    border: 0.5px solid gray;
+}
+body{
+    background-color: #f5f6f8;  
+}
+*{
+    font-family: OpenSans, Arial;;
+}
+
+/* #advertize {
+    height: 450px;
+    width: 88%;
+    /* border: 1px solid black; */
+
+    /* margin-left: 50px; */
+/* } */
+
+
+ /* #Flash_Deals {
+    height: 50px;
+    width: 95%;
+    
+    /* border: 1px solid black; */
+    /* content: "\E655"; */
+    /* margin: auto; */
+/* } */ 
+
+
+/* #brands>a {
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+    /* cursor: pointer; */
+/* } */ 
+
+/* #brands>a:hover {
+   margin: auto;
+   */
+
+    /* justify-content: space-between; */
+/* } */
+/* a{
+    color: gray;
+} */
+/* #Parent {
+    height: auto;
+    width: 95%;
+    /* border: 2px solid teal; */
+    /* margin: auto; */
+/* } */
+
+/* #container {
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    gap: 10px;
+    margin: auto;
+} */
