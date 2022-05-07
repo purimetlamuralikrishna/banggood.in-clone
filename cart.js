@@ -15,21 +15,23 @@ else
 }
 
 function displaydata(cartData)
-{
-   document.getElementById("container1").innerHTML="";
+
+{console.log(cartData)
+   document.getElementById("container1").innerHTML=null;
    
    cartData.map(function (ele,index){
    let box=document.createElement("div");
+   box.setAttribute("id","box");
    box.style.boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px";
 
    let img=document.createElement("img");
-   img.src=ele.imgUrl;
+   img.src=ele.img;
 
-   let name=document.createElement("p");
-   name.innerText=ele.name;
+   let off=document.createElement("p");
+   off.innerText=ele.off + "% OFF";
 
    let price=document.createElement("p");
-   price.innerText="Rs."+ele.price;
+   price.innerText="₹"+ele.price;
 
    let btn=document.createElement("button");
    btn.innerText="Remove";
@@ -37,7 +39,7 @@ function displaydata(cartData)
        removeItem(ele,index);
    });
 
-   box.append(img,name,price,btn);
+   box.append(img,price,off,btn);
    document.querySelector("#container1").append(box);
    });
 
@@ -52,9 +54,9 @@ function displaydata(cartData)
         window.location.reload();
     }
 
-    var total=cartData.reduce(function(sum,ele,index,arr){
+    var totalcost=cartData.reduce(function(sum,ele,index,arr){
         return sum + Number(ele.price);
     },0);
 
     let total=document.getElementById("total_price");
-    total.innerText=`Price Total Rs ${total}`;
+    total.innerText=`Price Total Rs ${totalcost}`;

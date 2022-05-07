@@ -35,6 +35,8 @@ h3{
 }
 #container>#container1{
     display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 10px;
     /* border: 1px solid blue; */
     width: 100%;
     height: auto;  
@@ -44,6 +46,13 @@ h3{
     width: 35%;
     margin-left:65%;
     height: auto;
+}
+#box{
+    width:100%;
+    height:auto
+}
+#box>img{
+    width:100%;
 }
 a{
     text-decoration: none;
