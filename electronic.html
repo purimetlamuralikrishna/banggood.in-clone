@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electronics</title>
-    
-    <link rel="stylesheet" href="electronic.css">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/electronic.css">
+    <!-- <link rel="stylesheet" href="styles/footer.css"> -->
   </head>
   <body>
-    <h1>Electronics</h1>
+
+    <!-- navbar start -->
+    <div id="navbar">
+      <div>
+          <img  id="logopng" src="./images/logo.PNG" alt=""/>
+      </div>
+      <div class="search-container"> <input type="text" name="search-text" placeholder="laotie"   class="search-input"/>
+           <button id="search-button">&#x1F50D</button> 
+           <div id="emax">
+               <p> emax</p>
+               <p>surpass</p>
+               <p>hobbygeprc</p>
+               <p>vention</p>
+               <p>vention</p>
+               <p>laotie</p>
+               <p>xiaomi</p>
+               <p>3d printer</p>
+           </div>
+         
+      </div>
+      <div>
+          <img  style="height: auto;width: 200px;"   src="./images/india.PNG" alt=""/>
+      </div>
+      <div id="log">
+          <img style="height: 59px;width: 59px;"  src="./images/human.PNG" alt=""/>
+           <div >
+               <p style=" color: #ffffff66;">Hello</p>
+               <h4 id="navbarsign">Sign in</h4>
+           </div>   
+      </div>
+      <div id="cart">
+          <a href="cart.html"><img style="height: auto;width: 100px;" src="./images/cart.PNG"alt=""/></a>
+         
+      </div>
+      </div>
+  <!-- navbar end -->
+      <div id="dropdown">
+         <p>  <span><i class="fa-solid fa-bars">  </i></span>  CATEGORIES <span><i class="fa-solid fa-angle-right"></i></span></p>
+          <p>FLASH DEALS</p>
+          <P>CLERANCE SALE</P>
+          <p>TOP SALLERS</p>
+      </div>
+
+    <h1 id="heading">Electronics</h1>
     <div id="main">
       <div>
-        <h3>Related Categories</h3>
+        <h2 style=" color: #FF6E26;
+        margin-left: 0px;">Related Categories</h2>
        <div id="side">
         <a href=""><p>3D Printer & Supplies</p></a>
         <a href=""><p>Consumer Electronics</p></a>
@@ -50,10 +98,16 @@
       </div>
       <div id="container"></div>
     </div>
+    <div id="footdiv">
+      <a href="">About Banggood.com | </a>
+      <a href="">Terms And Conditions |</a>
+      <a href="">Privacy Policy |</a>
+      <a href="">Help Center</a>
+      <p>Copyright © 2006-2022 Banggood All Rights Reserved.</p>
+  </div>
    
+ 
   </body>
 </html>
 
-<script src="electronic.js">
-
-</script>
+<script src="./scripts/electronic.js"></script>

@@ -10,7 +10,10 @@ if(cartData.length>0)
 
 else
 {
-    // console.log("str")
+//    if(cartData.length===0){
+//        window.location.href="cart.html"
+//        alert("Cart is Empty!")
+//    }
     let btn=document.createElement('button');
     btn.innerText="Go shopping";
 }
@@ -64,3 +67,4 @@ function displaydata(cartData)
     let total_price=document.getElementById("total_price");
     total_price.innerText=`Your Cart Total  ₹${total}`;
     total_price.style.textAlign='center';
+    total_price.style.fontWeight="medium";

@@ -1,3 +1,5 @@
+*{font-family:arial,helvetica,sans-serif,verdana,'Open Sans'}
+body{background-color:  #f0eaea66;}
 #main{
   display: flex;
   width: 95%;
@@ -9,6 +11,7 @@
   font-size: 15px;
   padding: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ 
   /* border: 1px solid black; */
 }
 a{
@@ -21,6 +24,7 @@ a:hover{
 #brands{
   display: grid;
   padding: 5px;
+ 
   grid-template-columns: repeat(2,1fr);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   /* border: 1px solid black; */
@@ -32,17 +36,17 @@ a:hover{
   border-radius: 5px;
 }
 #container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  width: 80%;
-  margin: auto;
-  }
-  #container>div{
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  }
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+width: 80%;
+margin: auto;
+}
+#container>div{
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 img{
   width: 200px;
   height: 200px;
@@ -54,7 +58,7 @@ img+p{
 }
 img+p+p{
   color: red;
-  
+  /* font-weight: 600; */
 }
 #button:hover{
   background-color: green;
@@ -84,10 +88,11 @@ img+p+p{
   margin: auto;
 }
 }
-
-/* navbar */
-*{font-family:arial,helvetica,sans-serif,verdana,'Open Sans'}
-body{background-color:  #f0eaea66;}
+#heading {
+  color: #FF6E26;
+  margin-left: 40px;
+  
+}
 
 /* navbar */
 #navbar{
@@ -176,7 +181,6 @@ line-height: 5px;}
     height: auto;
     width: 200px;
   }
-
   #footdiv{
     
     text-align: center;
