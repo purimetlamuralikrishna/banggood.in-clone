@@ -10,6 +10,12 @@ This is clone of Banggood.com ecommerce website
 ![](https://github.com/purimetlamuralikrishna/banggood.in-clone/blob/master/images/screenshots/Homepage.png)
 
 
+
+## Tech Stack
+- Java Script
+- HTML
+- CSS
+
 ## Website Flow
 
 - Homepage
@@ -17,10 +23,6 @@ This is clone of Banggood.com ecommerce website
 - Add Products to Cart
 - Add address details
 - Payment Gateway
-## Tech Stack
-- Java Script
-- HTML
-- CSS
 
 
 
@@ -51,7 +53,21 @@ This is clone of Banggood.com ecommerce website
 
 ![](https://github.com/purimetlamuralikrishna/banggood.in-clone/blob/master/images/screenshots/Payment%20Gateway.png)
 
+## Learnings
 
+- learnt how to make webpages dynamically 
+- How to use Api keys
+- Import/exports
+- Advanced JS
+- Api Server
+
+## Requirements to Visit Website
+
+- PC with internet connection
+- Web browser 
+- [Click here]( https://purimetlamuralikrishna.github.io/banggood.in-clone/)
+  
+    
 ## Contributors
 
 - [P.Murali Krishna](https://github.com/purimetlamuralikrishna)
@@ -60,20 +76,8 @@ This is clone of Banggood.com ecommerce website
 - [Ankit Yadav](https://github.com/Ankit-yadav09)
 - [Saurabh Shambharkar](https://github.com/Saurabh100kar)
 - [Abhay Pandey](https://github.com/Abhaypandey09)
-## Requirements to Visit Website
 
-- PC with internet connection
-- Web browser 
-- [Click here]( https://purimetlamuralikrishna.github.io/banggood.in-clone/)
 
-## Learnings
-
-- learnt how to make webpages dynamically 
-- How to use Api keys
-- Import/exports
-- Advanced JS
-- Api Server
-    
 ## Documentation
 
 [Documentation](https://github.com/purimetlamuralikrishna/banggood.in-clone/tree/master#readme)
