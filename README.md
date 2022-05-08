@@ -18,13 +18,9 @@ This is clone of Banggood.com ecommerce website
 - Add address details
 - Payment Gateway
 ## Tech Stack
-
-Java Script
-
-HTML
-
-
-CSS
+- Java Script
+- HTML
+- CSS
 
 
 
@@ -56,7 +52,7 @@ CSS
 ![](https://github.com/purimetlamuralikrishna/banggood.in-clone/blob/master/images/screenshots/Payment%20Gateway.png)
 
 
-## Authors
+## Contributors
 
 - [P.Murali Krishna](https://github.com/purimetlamuralikrishna)
 - [Avinash Ghatanure](https://github.com/Avinash7249)
