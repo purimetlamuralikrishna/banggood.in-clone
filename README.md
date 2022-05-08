@@ -80,5 +80,5 @@ CSS
     
 ## Documentation
 
-[Documentation](https://github.com/purimetlamuralikrishna/banggood.in-clone)
+[Documentation](https://github.com/purimetlamuralikrishna/banggood.in-clone/tree/master#readme)
 
