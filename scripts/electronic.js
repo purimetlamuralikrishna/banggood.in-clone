@@ -133,7 +133,7 @@ var mensData = [
     name.textContent = elem.name;
 
     var price = document.createElement("p");
-    price.innerText = elem.price;
+    price.innerText = `$ ${elem.price}`;
 
     var btn = document.createElement("button");
     btn.innerText = "Add to Cart";
