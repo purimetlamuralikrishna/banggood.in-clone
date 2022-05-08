@@ -14,6 +14,9 @@
     background: transparent;
     margin-left: 15%;
 }
+#navbar a{
+    background: transparent;
+}
 
 #registerdiv{
     background-color: white;

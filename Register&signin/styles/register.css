@@ -12,6 +12,9 @@
     background: transparent;
     margin-left: 15%;
 }
+#navbar a{
+    background: transparent;
+}
 
 #registerdiv{
     background-color: white;
@@ -21,7 +24,7 @@
     text-align: center;
     padding: 1% 0 2% 0;
 }
-input-text{
+.input-text{
     margin-left: 10px;
 }
 .einput,.pinput,.ninput{
